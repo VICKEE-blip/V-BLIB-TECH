@@ -28,11 +28,12 @@ Forged in the shadows of the digital frontier — **V-BLIB TECH** is a high-inte
 > 💡 No build process required—it’s pure HTML/CSS
 
 ## 💬 Contact
-- 📱 [WhatsApp Me](https://wa.me/254705691318?text=hello+V-BLIB+TECH)
-- ✉️ [Email me](vjxlmax2001@gmail.com)
-- 📧 Encrypted channels opening soon...
+- 📱 [WhatsApp Me](https://wa.me/254705691318?text=I'm+interested+in+V-BLIB+TECH,+tell+me+more!)
+- 📧 [Email Me](mailto:vjxlmax2001@gmail.com?subject=V-BLIB%20TECH%20Inquiry)
+- 🛡️ Encrypted channels opening soon...
 
 ## 🧠 License
 This project is open-source under the MIT License—adapt, remix, and evolve.
-No torent
+-No torent.
+-No carding.
 
