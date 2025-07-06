@@ -2,7 +2,7 @@
 Forged in the shadows of the digital frontier — **V-BLIB TECH** is a high-intelligence command hub for innovation, stealth-grade bots, and adaptive web infrastructure.
 
 ## 🔗 Live Preview
-👉 [Visit Site on Netlify](https://v-blib-tech.netlify.app)
+👉 [Visit Site on Vercel](https://vblib-tech.vercel.app)
 
 ## ✨ Features
 - 🔹 Glowing multi-page design with sleek transitions
