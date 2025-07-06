@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V-BLIB TECH</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+    htnl, head {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-shadow: 0 0 5px #00FFFF;
+}
+
+.nav-link:hover {
+  border-color: #00FFFF;
+  background-color: #00FFFF22;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #00FFFF, 0 0 16px #00FFFF;
+}
+
+.glow {
+  text-shadow: 0 0 8px #00FFFF, 0 0 20px #00FFFF;
+}
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #000000;
+        color: #00FFFF;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.glow {
+        text-shadow: 0 0 8px #00FFFF, 0 0 20px #00FFFF;
+}
+
+.pulse {
+        animation: glowPulse 2s ease-in-out infinite;
+}
+
+.hover-glow:hover {
+        background-color: #00FFFF22;
+        transform: scale(1.05);
+        transition: 0.3s ease;
+}
+
+      @keyframes glowPulse {
+        0% { text-shadow: 0 0 8px #00FFFF;}
+        50% { text-shadow: 0 0 20px #00FFFF;}
+        100% { text-shadow: 0 0 8px #00FFFF;}
+}
+
+.glow-border {
+        border: 2px solid #00FFFF;
+        box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+        border-radius: 12px;
+        padding: 4rem 2rem;         /* 🔼 Enhanced vertical padding */
+        min-height: 80vh;           /* 🔼 Expanded screen coverage */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+}
+    </style>
+  </head>
+
+  <body class="flex items-center justify-center min-h-screen px-4">
+      <nav class="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80 backdrop-blur border-b border-cyan-400 shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+    <h1 class="text-cyan-400 text-xl font-bold glow">V-BLIB TECH</h1>
+    <div class="space-x-6 text-cyan-200">
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </div>
+</nav>
+    <div class="max-w-4xl w-full glow-border text-center">
+      <header class="mb-10">
+        <h1 class="text-5xl md:text-7xl font-bold glow">V-BLIB TECH</h1>
+        <p class="text-xl md:text-2xl mt-4 glow pulse">
+          Innovating from the shadows. Bots. Builds. Brilliance.
+        </p>
+      </header>
+
+      <main>
+        <a href="#projects" class="inline-block border border-cyan-400 px-8 py-4 rounded text-lg hover-glow">
+          View My Projects
+        </a>
+      </main>
+
+      <footer class="mt-16 text-sm text-cyan-400 opacity-60">
+        &copy; 2025 V-BLIB TECH. Code. Create. Conceal.
+      </footer>
+    </div>
+  </body>
+</html>
