@@ -29,6 +29,7 @@ Forged in the shadows of the digital frontier — **V-BLIB TECH** is a high-inte
 
 ## 💬 Contact
 - 📱 [WhatsApp Me](https://wa.me/254705691318?text=hello+V-BLIB+TECH)
+- ✉️ [Email me](vjxlmax2001@gmail.com)
 - 📧 Encrypted channels opening soon...
 
 ## 🧠 License
