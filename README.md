@@ -2,7 +2,6 @@
 Forged in the shadows of the digital frontier — **V-BLIB TECH** is a high-intelligence command hub for innovation, stealth-grade bots, and adaptive web infrastructure.
 
 ## 🔗 Live Preview
-markdown
 [![⚡ Fork this Repo](https://img.shields.io/badge/⚡️%20Fork--this--Repo-30363d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VICKEE-blip/V-BLIB-TECH/fork)
 
 [![⭐ Star on GitHub](https://img.shields.io/github/stars/VICKEE-blip/V-BLIB-TECH?style=for-the-badge)](https://github.com/VICKEE-blip/V-BLIB-TECH)
