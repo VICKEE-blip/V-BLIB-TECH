@@ -34,3 +34,5 @@ Forged in the shadows of the digital frontier — **V-BLIB TECH** is a high-inte
 
 ## 🧠 License
 This project is open-source under the MIT License—adapt, remix, and evolve.
+No torent
+
