@@ -122,18 +122,22 @@
   document.getElementById('whatsapp-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
+    const name = document.getElementById('whatsapp-name').value;
+    const email = document.getElementById('whatsapp-email').value;
     const message = document.getElementById('whatsapp-message').value;
     const phoneNumber = '254705691318'; // Your WhatsApp number
 
     if (!message.trim()) {
-      alert("Please enter a message before sending.");
+      alert("Please enter a message.");
       return;
 }
 
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
 });
       </script>
+      
     </div>
   </main>
 </body>
