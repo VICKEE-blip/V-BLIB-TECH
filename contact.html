@@ -115,6 +115,22 @@
 
     <div class="text-center mt-16">
       <a href="index.html" class="hover-glow border border-cyan-400 px-6 py-3 rounded text-lg">⬅ Return to Homepage</a>
+      <script>
+  document.getElementById('whatsapp-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const message = document.getElementById('whatsapp-message').value;
+    const phoneNumber = '254705691318'; // Your WhatsApp number
+
+    if (!message.trim()) {
+      alert("Please enter a message before sending.");
+      return;
+}
+
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+});
+      </script>
     </div>
   </main>
 </body>
