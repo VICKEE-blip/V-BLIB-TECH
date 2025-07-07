@@ -69,6 +69,40 @@
         justify-content: center;
         box-sizing: border-box;
 }
+
+      .site-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.4); /* optional translucent layer */
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 8px #00ffff);
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(10px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes shimmer {
+  0% { background-position: -300px 0;}
+  100% { background-position: 300px 0;}
+}
+
+.copyright {
+  font-size: 0.85rem;
+  color: transparent;
+  background-image: linear-gradient(90deg, #888, #fff, #888);
+  background-size: 300px 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: fadeUp 1.5s ease-out, shimmer 3s linear infinite;
+}
     </style>
   </head>
 
@@ -97,8 +131,9 @@
         </a>
       </main>
 
-      <footer class="mt-16 text-sm text-cyan-400 opacity-60">
-        &copy; 2025 V-BLIB TECH. Code. Create. Conceal.
+      <footer class="site-footer">
+  <img src="https://files.catbox.moe/7kpguj.jpeg" alt="Logo" class="footer-logo" />
+  <p class="copyright">© 2025 V-BLIB TECH. All rights reserved</p>
       </footer>
     </div>
   </body>
